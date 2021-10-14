@@ -1,0 +1,16 @@
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\bin\Debug\net5.0\sesi_01.exe
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\bin\Debug\net5.0\sesi_01.deps.json
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\bin\Debug\net5.0\sesi_01.runtimeconfig.json
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\bin\Debug\net5.0\sesi_01.runtimeconfig.dev.json
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\bin\Debug\net5.0\sesi_01.dll
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\bin\Debug\net5.0\ref\sesi_01.dll
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\bin\Debug\net5.0\sesi_01.pdb
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.csproj.AssemblyReference.cache
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.AssemblyInfoInputs.cache
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.AssemblyInfo.cs
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.csproj.CoreCompileInputs.cache
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.dll
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\ref\sesi_01.dll
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.pdb
+C:\Users\User\intern_ocbc\c_sharp\sesi_01\obj\Debug\net5.0\sesi_01.genruntimeconfig.cache
