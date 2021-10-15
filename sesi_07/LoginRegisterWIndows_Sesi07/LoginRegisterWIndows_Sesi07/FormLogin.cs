@@ -21,11 +21,17 @@ namespace LoginRegisterWIndows_Sesi07
 
         private void btn_Login_Click(object sender, EventArgs e)
         {
-            db.ExecuteSelect("SELECT * FROM `tbl_user_info` where username='" + txtbox_username.Text +"' and password ='" +txtbox_pass.Text +"'");
+            db.ExecuteSelect("SELECT * FROM `tbl_user_info` where username='" + txtbox_username.Text + "' and password ='" + txtbox_pass.Text + "'");
 
-            if (db.Count() != 0)
+            if (db.Count() == 1)
             {
-                MessageBox.Show("Success You will Login as" + db.Results(0, "name"));
+                FormIndex idx = new FormIndex();
+
+                MessageBox.Show("Login Success" + db.Results(0, "name"));
+                UserDetails.Username = db.Results(0, "name");
+
+                idx.Show();
+                this.Hide();
             }
             else
             {
@@ -36,13 +42,14 @@ namespace LoginRegisterWIndows_Sesi07
         private void btn_daftar_Click(object sender, EventArgs e)
         {
             FormRegister register = new FormRegister();
-            
+
             register.Show();
+            this.Hide();
         }
 
         private void btn_exit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Environment.Exit(0);
         }
 
         private void label1_Click(object sender, EventArgs e)

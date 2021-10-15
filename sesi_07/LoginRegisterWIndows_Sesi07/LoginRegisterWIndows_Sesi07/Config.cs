@@ -20,7 +20,7 @@ namespace LoginRegisterWIndows_Sesi07
 		DataTable dt;
 		public string Table = "tbl_user_info";
 		public string ConnectionType = "";
-		string RecordSource = "	";
+		string RecordSource = "";
 
 		DataGridView tempdata;
 
@@ -83,7 +83,7 @@ namespace LoginRegisterWIndows_Sesi07
 
 				DataSet tempds = new DataSet();
 				da2.Fill(tempds, ConnectionType);
-				da2.Fill(tempds);
+				//da2.Fill(tempds);
 			}
 			catch (Exception err)
 			{
@@ -133,5 +133,30 @@ namespace LoginRegisterWIndows_Sesi07
 			return dt.Rows.Count;
 		}
 
+		
+		
+
 	}//class utama
+
+	public class UserDetails
+    {
+		private static string _username;
+
+		public static string Username
+		{
+			get
+			{
+				return _username;
+			}
+			set
+			{
+				_username = value;
+			}
+		}
+
+		public static string GetUsername()
+        {
+			return _username;
+        }
+	}
 }

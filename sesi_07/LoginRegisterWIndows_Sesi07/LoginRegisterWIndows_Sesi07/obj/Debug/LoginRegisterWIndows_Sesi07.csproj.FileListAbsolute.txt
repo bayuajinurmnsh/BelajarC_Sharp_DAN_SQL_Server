@@ -41,3 +41,7 @@ C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi
 C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi07\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi07\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi07\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi07\obj\Debug\LoginRegisterWIndows_Sesi07.FormIndex.resources
+C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi07\obj\Debug\LoginRegisterWIndows_Sesi07.FormTambah.resources
+C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi07\obj\Debug\LoginRegisterWIndows_Sesi07.FormDelete.resources
+C:\Users\User\source\repos\LoginRegisterWIndows_Sesi07\LoginRegisterWIndows_Sesi07\obj\Debug\LoginRegisterWIndows_Sesi07.FormUpdate.resources

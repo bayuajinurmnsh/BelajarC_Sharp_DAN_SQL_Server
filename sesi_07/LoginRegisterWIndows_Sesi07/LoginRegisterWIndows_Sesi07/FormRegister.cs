@@ -41,13 +41,16 @@ namespace LoginRegisterWIndows_Sesi07
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Environment.Exit(0);
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            db.Execute("INSERT INTO `tbl_user_info` (`id`,`name`, `username` , `password`) VALUE (NULL,'" + txtBox_Username.Text+ "','" + txtBox_name.Text + "', '"+ txtBox_Pass.Text +"');");
+            db.Execute("INSERT INTO `tbl_user_info` (`id`,`name`, `username` , `password`) VALUES (NULL,'" + txtBox_Username.Text+ "','" + txtBox_name.Text + "', '"+ txtBox_Pass.Text +"')");
 
+            MessageBox.Show("Data has been insert !");
+            FormLogin lgin = new FormLogin();
+            lgin.Show();
             this.Close();
         }
 
@@ -55,6 +58,7 @@ namespace LoginRegisterWIndows_Sesi07
         {
             FormLogin lgin = new FormLogin();
             lgin.Show();
+            this.Close();
         }
 
         private void txtBox_Username_TextChanged(object sender, EventArgs e)
