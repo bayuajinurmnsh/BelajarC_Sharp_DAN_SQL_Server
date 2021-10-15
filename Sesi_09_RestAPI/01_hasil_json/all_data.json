@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nama": "Bayu Aji Nurmansah",
+        "jenisKelamin": "L",
+        "alamat": "Medan"
+    },
+    {
+        "id": 2,
+        "nama": "John Doe",
+        "jenisKelamin": "L",
+        "alamat": "New York"
+    },
+    {
+        "id": 3,
+        "nama": "trum donil",
+        "jenisKelamin": "L",
+        "alamat": "Aceh"
+    },
+    {
+        "id": 4,
+        "nama": "Dinda Angry",
+        "jenisKelamin": "P",
+        "alamat": "Jakarta"
+    },
+    {
+        "id": 5,
+        "nama": "Anya",
+        "jenisKelamin": "P",
+        "alamat": "Bali"
+    }
+]
