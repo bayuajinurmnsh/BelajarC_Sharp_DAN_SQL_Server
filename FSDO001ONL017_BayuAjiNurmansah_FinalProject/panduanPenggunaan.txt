@@ -1,0 +1,74 @@
+Panduan Penggunaan:
+
+1. Buka xampp dan start MySQL dan Apache(optional)
+2. Buka Aplikasi di visual studio / vs code dan ketik dotnet run
+
+3. buka url https://localhost:5001 atau https://localhost:5001/api/OwnerDetails
+   jika menggunakan swagger buka https://localhost:5001/swagger/index.html
+
+3a. buka [URL] https://localhost:5001/api/AuthManagement/Register
+    ganti method menjadi [POST] dan pastikan username,email,dan password terisi lalu tekan enter/execute
+
+3b. buka [URL] https://localhost:5001/api/AuthManagement/Login
+    ganti method menjadi [POST] dan pastikan username,dan password terisi lalu tekan enter/execute 
+    
+
+3c. buka [URL] https://localhost:5001/api/AuthManagement/RefreshToken
+    ganti method menjadi [POST] dan copykan Token dan Refresh Token yang didapat setelah Login
+
+
+Disini saya melakukan improve dengan menambahkan 1 tabel OwnerDetails, dimana tabel PaymentDetails
+tidak bisa di isi apabila 'card number' belum terdapat di OwnerDetails
+pada saat menjalankan perintah - perintah dibawah : 
+*salin Token dan masukkan pada Authorize [Pada Swagger] atau 
+*[Pada Postman] bagian headers pilih Authorization ketikkan Bearer dan paste kan Token
+
+4. buka [URL] https://localhost:5001/api/OwnerDetails
+   ganti method menjadi [GET], tekan enter/execute
+
+5. buka [URL] https://localhost:5001/api/OwnerDetails
+   ganti method menjadi [POST] dan isi field pada ownerId, ownerCardNumber. ownerName, ownerAddress, 
+   status, dan CreatedDate
+   lalu klik execute/enter
+
+6. buka [URL] https://localhost:5001/api/OwnerDetails/id
+   ganti method menjadi [GET], ganti id dengan id yang dimiliki ownerId
+   lalu klik execute/tekan enter
+
+7. buka [URL] https://localhost:5001/api/OwnerDetails/id
+   ganti method menjadi [PUT], ganti id dengan id yang dimiliki ownerId
+   lalu isikan ownerId dengan ownerId user yang akan diganti, ownerCardNumber, ownerName, 
+   ownerAddress, status, dan createdDate
+   lalu tekan enter/ klik execute
+
+8. buka [URL] https://localhost:5001/api/OwnerDetails/id
+   ganti method menjadi [DELETE], ganti id dengan id yang dimiliki ownerId
+   lalu tekan enter/ klik execute
+
+======================================================================
+-Table PaymentDetails-
+pada saat menjalankan perintah - perintah dibawah : 
+*salin Token dan masukkan pada Authorize [Pada Swagger] atau 
+*[Pada Postman] bagian headers pilih Authorization ketikkan Bearer dan paste kan Token
+
+9. buka [URL] https://localhost:5001/api/PaymentDetails
+   ganti method menjadi [GET] dan tekan enter / klik execute
+
+10. buka [URL] https://localhost:5001/api/PaymentDetails
+    ganti method menjadi [POST] isi field pada cardOwnerName, cardNumber, expirationDate, securityCode,
+    dan totalTransaction
+    lalu tekan enter/ klik execute
+
+11. buka [URL] https://localhost:5001/api/PaymentDetails/id
+    ganti method menjadi [GET], ganti id dengan id yang dimiliki paymentDetails
+    lalu klik execute/tekan enter
+
+12. buka [URL] https://localhost:5001/api/PaymentDetails/id
+    ganti method menjadi [PUT], ganti id dengan id yang dimiliki paymentDetails
+    lalu isikan paymentDetailId dengan paymentDetailId user yang akan diganti, 
+    cardOwnerName, cardNumber, expirationDate, securityCode, totalTransaction 
+    lalu tekan enter/ klik execute
+
+13. buka [URL] https://localhost:5001/api/PaymentDetails/id
+    ganti method menjadi [DELETE], ganti id dengan id yang dimiliki paymentDetailId
+    lalu tekan enter/ klik execute
